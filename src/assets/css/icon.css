@@ -1,0 +1,224 @@
+/* === 注 ===
+ 【1】background-position-y/x：不支持ff45版本（项目需求安装ff45）, 故只能用完整的background-position写法写了很多冗余代码；
+ 【2】-active、.active：高亮状态
+ */
+
+
+
+/* ========== public ========== */
+.ic1:hover,.ic2:hover,.ic3:hover{cursor:pointer;}
+.ic1::before, .ic2::before, .ic3::before{content:'';display:inline-block;height:20px;width:20px;box-sizing:border-box;}
+
+
+
+/* ========== ic1.png ========== */
+.ic1::before{background:url(../../assets/images/ic1.png) no-repeat;height:16px;width:16px;}
+
+.ic-begin::before{background-position:0 0;}                                                                                   /* 任务开始 */
+.ic-begin:hover::before, .ic-begin.active::before{background-position:0 -20px;}
+.ic-begin-active::before{background-position:0 -40px;}
+.ic-begin-active:hover::before, .ic-begin-active.active::before{background-position:0 -60px;}
+
+.ic-reset::before{background-position:-20px 0;}                                                                               /* 任务重置 */
+.ic-reset:hover::before, .ic-reset.active::before{background-position:-20px -20px;}
+.ic-reset-active::before{background-position:-20px -40px;}
+.ic-reset-active:hover::before, .ic-reset-active.active::before{background-position:-20px -60px;}
+
+.ic-fast-plan::before{background-position:-40px 0;}                                                                           /* 快速特勤 */
+.ic-fast-plan:hover::before, .ic-fast-plan.active::before{background-position:-40px -20px;}
+.ic-fast-plan-active::before{background-position:-40px -40px;}
+.ic-fast-plan-active:hover::before, .ic-fast-plan-active.active::before{background-position:-40px -60px;}
+
+.ic-end::before{background-position:-60px 0;}                                                                                 /* 任务完结 */
+.ic-end:hover::before, .ic-end.active::before{background-position:-60px -20px;}
+.ic-end-active::before{background-position:-60px -40px;}
+.ic-end-active:hover::before, .ic-end-active.active::before{background-position:-60px -60px;}
+
+.ic-post::before{background-position:-80px 0;}                                                                                /* 岗位 */
+.ic-post:hover::before{background-position:-80px -20px;}
+.ic-post-active::before{background-position:-80px -40px;}
+.ic-post-active:hover::before, .ic-post-active.active::before{background-position:-80px -60px;}
+
+.ic-video::before{background-position:-100px 0;}                                                                              /* 视频 */
+.ic-video:hover::before{background-position:-100px -20px;}
+.ic-video-active::before{background-position:-100px -40px;}
+.ic-video-active:hover::before, .ic-video-active.active::before{background-position:-100px -60px;}
+
+.ic-sign::before{background-position:-120px 0;}                                                                               /* 信号机 */
+.ic-sign:hover::before{background-position:-120px -20px;}
+.ic-sign-active::before{background-position:-120px -40px;}
+.ic-sign-active:hover::before, .ic-sign-active.active::before{background-position:-120px -60px;}
+
+.ic-set-main::before{background-position:-140px 0;}                                                                           /* 设主线(眼睛) */
+.ic-set-main:hover::before{background-position:-140px -20px;}
+.ic-set-main-active::before{background-position:-140px -40px;}
+.ic-set-main-active:hover::before{background-position:-140px -60px;}
+
+.ic-dustbin::before{background-position:-160px 0;}                                                                            /* 删除(垃圾箱) */
+.ic-dustbin:hover::before{background-position:-160px -20px;}
+.ic-dustbin-active::before{background-position:-160px -40px;}
+.ic-dustbin-active:hover::before{background-position:-160px -60px;}
+
+.ic-add-route-main::before{background-position:-200px 0;}                                                                     /* 添加执行线路*/
+.ic-add-route-main:hover::before{background-position:-200px -20px;}
+.ic-add-route-main-active::before{background-position:-200px -40px;}
+.ic-add-route-main-active:hover::before{background-position:-200px -60px;}
+
+.ic-add-route-spare::before{background-position:-220px 0;}                                                                    /* 添加备用线路*/
+.ic-add-route-spare:hover::before{background-position:-220px -20px;}
+.ic-add-route-spare-active::before{background-position:-220px -40px;}
+.ic-add-route-spare-active:hover::before{background-position:-220px -60px;}
+
+.ic-saveto-lib::before{background-position:-240px 0;}                                                                         /* 存预案库 */
+.ic-saveto-lib:hover::before{background-position:-240px -20px;}
+.ic-saveto-lib-active::before{background-position:-240px -40px;}
+.ic-saveto-lib-active:hover::before{background-position:-240px -60px;}
+
+.ic-minus::before{background-position:-260px 0;}                                                                              /* 移除线路 */
+.ic-minus:hover::before{background-position:-260px -20px;}
+.ic-minus.active::before{background-position:-260px -40px;}
+.ic-minus.active:hover::before{background-position:-260px -60px;}
+
+.ic-edit::before{background-position:-280px 0;}                                                                               /* 编辑 */
+.ic-edit:hover::before, .ic-edit.active::before{background-position:-280px -20px;}
+.ic-edit-active::before{background-position:-280px -40px;}
+.ic-edit-active:hover::before, .ic-edit-active.active::before{background-position:-280px -60px;}
+
+.ic-scan::before{background-position:-300px 0;}                                                                               /* 查看 */
+.ic-scan:hover::before{background-position:-300px -20px;}
+.ic-scan-active::before{background-position:-300px -40px;}
+.ic-scan-active:hover::before{background-position:-300px -60px;}
+
+
+
+/* ========== ic2.png ========== */
+.ic2::before{background:url(../../assets/images/ic2.png) no-repeat;}
+
+.ic-task-progress{position:relative;height:20px;width:20px;}                                                                   /* 任务进度 */
+.ic-task-progress span.count{position:absolute;left:16px;top:-3px;background:#f96868;color:#fff;border-radius:10px;height:14px;line-height:14px;padding:0 4px;}
+.ic-task-progress::before{background-position:0 0;}
+.ic-task-progress:hover::before, .ic-task-progress.active::before{background-position:0 -20px;}
+
+.ic-calendar-week::before{background-position: -40px 0;}                                                                      /* 日历：一周 */
+.ic-calendar-week:hover::before, .ic-calendar-week.active::before{background-position: -40px -20px;}
+
+.ic-executive-log::before{background-position:-20px 0;}                                                                       /* 执行记录 */
+.ic-executive-log:hover::before, .ic-executive-log.active::before{background-position:-20px -20px;}
+
+.ic-fast-plan2::before{background-position:-60px 0;}                                                                           /* 快速特勤 */
+.ic-fast-plan2:hover::before{background-position:-60px -20px;}
+
+.ic-recovery::before{background-position:-20px -40px;}                                                                        /* 恢复 */
+
+.ic-more:before{background-position:-220px 0;}                                                                                /* 更多 */
+.ic-more:hover::before{background-position:-220px -20px;}
+.ic-more-active:before{background-position:-220px -40px;}
+.ic-more-active:hover::before{opacity:.85;}
+
+.ic-search::before{position:relative;top:5px;background-position:-260px 0;}                                                   /* 查询 */
+.ic-search:hover::before{background-position:-260px -20px;}
+
+.ic-plus::before{background-position:-340px 0;}                                                                               /* 选定线路 */
+.ic-plus:hover::before{background-position:-340px -20px;}
+
+.ic-police-count::before{background-position:-400px -20px;}                                                                   /* 民警数量 */
+.ic-police-count-aux::before{background-position:-460px -20px;}                                                               /* 协警数量 */
+
+.ic-set-police::before{background-position:-400px 0;transform:scale(.9)}                                                      /* 派警 */
+.ic-set-police:hover::before{background-position:-400px -20px;}
+
+.ic-set::before{background-position:-420px 0;}                                                                                /* 设置 */
+.ic-set:hover::before{background-position:-420px -20px;}
+
+.ic-plate::before{background-position:-440px 0;}                                                                              /* 小车 */
+.ic-plate-active::before{background-position:-440px -20px;}
+
+.ic-del-x::before{background-position:-480px 0;}                                                                              /* 删除(圈x) 灰-红 */
+.ic-del-x:hover::before{background-position:-480px -20px;}
+.ic-del-x-active::before{background-position:-500px 0;}                                                                       /* 删除(圈×) 白-黄 */
+.ic-del-x-active:hover::before{background-position:-500px -20px;}
+
+.ic-del::before{background-position:-520px 0;}                                                                                /* 删除(圈-) */
+.ic-del:hover::before{background-position:-520px -20px;}
+
+.ic-add::before{background-position:-540px 0;}                                                                                /* 添加(圈+) 灰-蓝 */
+.ic-add:hover::before,.ic-add.active::before{background-position:-540px -20px;}
+.ic-add-active{height:33px;padding:0 3px;text-align:center;}                                                                  /* 添加(圈+) 蓝-蓝 */
+.ic-add-active::before{background-position:-540px -20px;}
+.ic-add-active:hover::before{opacity:.85;}
+
+.ic-close-x{position:absolute;right:-4px;top:-1px;text-align:center;}                                                         /* layer关闭(×) */
+.ic-close-x::before{background-position:-560px 0;}
+.ic-close-x:hover::before{background-position:-560px -20px;}
+
+.ic-add-point::before{background-position:-580px 0;}                                                                          /* 地图取点 */
+.ic-add-point:hover::before, .ic-add-point.active::before{background-position:-580px -20px;}
+
+.ic-saveto-common-point::before{background-position:-600px 0;}                                                                /* 存为常备单位 */
+.ic-saveto-common-point:hover::before{background-position:-600px -20px;}
+
+.ic-add-square::before{background-position:-620px -20px;}                                                                     /* 添加(方+)蓝-蓝 */
+.ic-add-square:hover::before{opacity:.85;}
+
+.ic-mapdraw-reset::before{background-position:-640px 0;}                                                                      /* 地图绘制重置 */
+.ic-mapdraw-reset:hover::before{background-position:-640px -20px;}
+
+.ic-calendar::before{background-position:-660px 0;}                                                                           /* 日历 */
+.ic-calendar:hover::before{background-position:-660px -20px;}
+.ic-calendar.active::before{background-position:-660px -20px;}
+
+.ic-animation-play::before{background-position:-680px 0;}                                                                     /* 动画开始 */
+.ic-animation-play:hover::before{background-position:-680px -20px;}
+
+.ic-animation-pause::before{background-position:-700px 0;}                                                                    /* 动画暂停 */
+.ic-animation-pause:hover::before{background-position:-700px -20px;}
+
+.ic-animation-stop::before{background-position:-720px 0;}                                                                     /* 动画停止 */
+.ic-animation-stop:hover::before{background-position:-720px -20px;}
+
+.ic-location::before{background-position:-740px 0;}                                                                           /* 定位 */
+.ic-location:hover::before{background-position:-740px -20px;}
+
+.ic-layer-eyes::before{background-position:-760px 0;}                                                                         /* 图层显隐 */
+.ic-layer-eyes:hover::before{background-position:-760px -20px;}
+.ic-layer-eyes.active::before{background-position:-780px 0;}
+.ic-layer-eyes.active:hover::before{background-position:-780px -20px;}
+
+.ic-ckb-box::before{border:1px solid #e8ebed;border-radius:2px;background:#fff;display:inline-block;height:12px;width:12px;}  /* 自定义复选框 */
+.ic-ckb-box:hover::before{border-color:#5093e1;}
+.ic-ckb-box.active::before{border-color:#5093e1;background:#fff url(../../assets/images/ic2.png) -460px 0 no-repeat;}
+.ic-ckb-box.disabled::before{border-color:#dcdfe6;background:#edf2fc;cursor:not-allowed;}
+
+
+
+/* ========== ic3.png ========== */
+.ic3::before{float:left;background:url(../../assets/images/ic3.png) no-repeat;}
+
+.ic-count-police::before{background-position:-40px 0;}                                                                        /* 警力资源 */
+.ic-count-police:hover::before, .ic-count-police.active::before{background-position:-40px -20px;}
+.ic-count-police.disabled::before, .ic-count-police.disabled:hover::before{background-position:-40px -40px;cursor:not-allowed;}
+
+.ic-count-video::before{background-position:0 0;}                                                                             /* 视频监控 */
+.ic-count-video:hover::before, .ic-count-video.active::before{background-position:0 -20px;}
+.ic-count-video.disabled::before, .ic-count-video.disabled:hover::before{background-position:0 -40px;cursor:not-allowed;}
+
+.ic-count-sign::before{background-position:-20px 0;}                                                                          /* 信号设备 */
+.ic-count-sign:hover::before, .ic-count-sign.active::before{background-position:-20px -20px;}
+.ic-count-sign.disabled::before, .ic-count-sign.disabled:hover::before{background-position:-20px -40px;cursor:not-allowed;}
+
+
+
+/* ========== no image ========== */
+.ic-request::before{content:'*';display:inline-block;color:#ec2626;position:relative;top:2px;right:1px;}                      /* 必填*号前缀 */
+
+.ic-close{display:inline-block;width:16px;height:16px;text-align:center;}
+.ic-close:hover{cursor:pointer;}
+.ic-close::before{content:'';display:inline-block;position:relative;top:-4px;background:#727d86;height:1px;width:12px;transition:transform .2s;} /* layer关闭(-) */
+.ic-close:hover::before{transform:rotate(180deg);background:#5093e1;}
+.ic-close-active::before{content:'';display:inline-block;position:relative;top:-4px;left:4px;background:#fff;height:1px;width:12px;transition:transform .2s;}
+.ic-close-active:hover::before{transform:rotate(180deg);opacity: .85;cursor:pointer;}
+
+.ic-arrow-left{display:block;width:20px;height:40px;background:#ccc;border-radius:0 20px 20px 0;position:absolute;left:0;top:50%;transform:translateY(-50%);z-index:999999;cursor:pointer;} /* 面板左右展开/收起(半圆) */
+.ic-arrow-left::before{content:'';float:left;margin-top:10px;width:13px;height:20px;text-align:center;color:#fff;transition:all .4s;background-position:-460px -40px;}
+.ic-arrow-right::before{transform:rotate(180deg);margin-left:3px;}
+

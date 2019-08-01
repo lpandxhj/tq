@@ -1,0 +1,125 @@
+/* ================= basic reset =================== */
+*{padding:0;margin:0;font-family:"微软雅黑";font-size:12px;}
+html, body { position: relative;width: 100%;height: 100%;overflow-x:hidden;}
+ul,ol,li{list-style: none;}
+img{border: none;max-width:100%;}
+a {outline: none;text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);color:#333}
+:focus { outline:0;}
+em,i{font-style:normal;}
+button{-webkit-appearance: none;}
+textarea{resize: none;}
+::-webkit-input-placeholder { color:#ccc;}
+input:-moz-placeholder { color:#ccc;}
+input.no-arrow::-webkit-outer-spin-button, input.no-arrow::-webkit-inner-spin-button {  -webkit-appearance: none; }       /* 无上下箭头的数字输入框 */
+input.no-arrow[type="number"]{  -moz-appearance: textfield; }
+.clrfix:after{content:"";display:block;height:0;font-size:0;line-height:0;clear:both;visibility:hidden;}
+.flex-wrap{display:flex;}
+.flex-wrap-c{display:flex;justify-content:center;align-items:center;}
+.flex-item{flex:1;}
+.table-wrap{display:table;}
+.table-item{display:table-cell;}
+.fr{float:right;}
+.position-a{position:absolute;}
+.position-r{position:relative;}
+.hidden{visibility:hidden;}
+.visible{visibility:visible;}
+.hide{display:none;}
+.show{display:block;}
+.drag{cursor:move;}
+.no-wrap{word-break:keep-all;white-space:nowrap;}
+.align-l{text-align:left;}
+.align-r{text-align:right;}
+.align-c{text-align:center;}
+.ellipsis{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;padding-right:5px;}
+.ellipsis-row2{overflow:hidden;text-overflow:ellipsis; display:-webkit-box;-webkit-box-orient:vertical; -webkit-line-clamp:2;}
+.overflow-h{overflow:hidden;}
+[v-cloak] {display: none!important}
+
+
+
+/* ============ elementui reset ============ */
+/* 滚动条 */
+.el-scrollbar-xhidden .el-scrollbar__wrap{overflow-x:hidden!important;}
+.el-scrollbar-xhidden .is-horizontal,.el-scrollbar-yhidden .is-vertical{display:none;}
+.el-scrollbar__thumb{background:#c0ccda;}
+
+/* 加载等待 */
+.el-loading-mask{z-index:20;background:transparent;}
+
+/* 弹出层 */
+.el-popover{min-width:1px;}
+
+/* 消息提示 */
+.el-message{overflow:inherit;top:90px;}
+.el-message{min-width:230px;box-sizing:border-box;color:#fff;border-radius:4px;box-shadow:0 2px 4px #c6cace;border:none;}
+.el-message .el-icon-close::before{color:#fff;}
+.el-message .el-message__closeBtn{display:block;height:16px;width:16px;top:-1px;right:-7px;border-radius:50%;}
+.el-message .el-message__closeBtn:before{font-size:12px;float:left;margin:2px 0 0 2px;transform:scale(.75,.75);opacity:.8}
+.el-message .el-message__closeBtn:hover::before{opacity:1}
+.el-message .el-message__icon::before{content:'';display:block;height:20px;width:20px;background:url(../../assets/images/ic2.png) no-repeat -120px 0;}
+.el-message .el-message__content{color:#fff;}
+.el-message--error,.el-message--error .el-message__closeBtn{background:#f96868;}
+.el-message--error .el-message__icon::before{background-position:-80px 0;}
+.el-message--info,.el-message--info .el-message__closeBtn{background:#5093e1;}
+.el-message--info .el-message__icon::before{background-position:-100px 0;}
+.el-message--success{background:#50c14e;}
+.el-message--warning{background:#f3b03e;}
+.el-message--warning .el-message__icon::before{background-position:-80px 0;}
+
+/* 分页 */
+.el-pagination{color:#727d86;font-weight:normal;text-align:center;padding-top:10px;}
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li{min-width:inherit;width:30px;height:30px;text-align:center;line-height:30px;border-radius:50%;font-size:12px;}
+.el-pagination.is-background .el-pagination__total{line-height:30px;height:30px;}
+.el-pagination.is-background .el-pager li{background:none;}
+.el-pager li.active{background:#298cef;}
+.el-icon-more:before{color:#727d86;}
+
+/* 弹层 */
+.el-dialog__wrapper{position:absolute;}
+.el-dialog{box-shadow:1px 3px 8px #ccc;border-radius:4px;}
+.el-dialog__header .el-dialog__title{font-size:12px;color:#727d86;}
+.el-dialog__header .el-dialog__headerbtn{top:0;right:0;padding:8px 10px 6px;}
+.el-dialog__header .el-dialog__close::before{color:#727d86;font-size:15px;}
+.el-dialog__header .el-dialog__close:hover::before{color:#5093e1;}
+.el-dialog__body{padding:10px 0 15px;color:#727d86;font-size:12px;}
+.el-dialog__footer{text-align:center;background:#f6f7fb;height:50px;padding:12px 20px 0;border-radius:0 0 4px 4px;}
+.el-dialog__header{height:40px;line-height:40px;padding:0 10px;border-radius:4px 4px 0 0;}                                /* 头部带底纹的 */
+.dialog-header-hasbg .el-dialog__header{background:#f6f7fb;height:30px;line-height:30px;}
+.dialog-header-hasbg .el-dialog__header .el-dialog__headerbtn{padding-top:7px;}
+.v-modal{opacity:0.2;}
+
+/* 表单元素 */
+.el-radio__label{font-size:12px;}
+.el-input__inner, .el-input.is-disabled .el-input__inner{padding:0 6px;border-color:#efefef;}
+.el-textarea__inner{padding:5px 6px;font-size:12px;border-color:#efefef;}
+.el-input--mini .el-input__inner{height:30px;line-height:30px;}
+.el-button--primary{background: #5093e1;}
+.el-button--mini.is-round{height:24px;box-sizing:border-box;min-width:80px;padding:4px 20px;}
+.el-date-editor.el-input--suffix .el-input__inner{padding-right:6px;}
+.el-date-editor.el-input--suffix:hover .el-input__inner{padding-right:30px;}                                              /* 防止日期icon遮挡日期完整显示 */
+
+/* 布局 */
+.el-col{min-height:1px;min-width:1px;}                                                                                    /* 内容为空时列占位 */
+
+/* 模态框 */
+.dialog-wh1044{width:981px;margin-top:0!important;top:50%;transform:translateY(-50%);}                                   /* 日历 */
+/*.dialog-wh1044{width:1044px;margin-top:0!important;top:50%;transform:translateY(-50%);}                                   !* 日历 *!*/
+.dialog-wh1044 .el-dialog__header{height:0;}
+.dialog-wh1044 .el-dialog__body{padding:0;}
+.dialog-wh480{width:480px;}                                                                                               /* 任务编辑、常备单位编辑 */
+.dialog-wh570{width:570px;height:493px;}                                                                                  /* 派警警员list */
+.dialog-wh570 .el-dialog__footer{position:absolute;bottom:0;left:0;right:0;}
+.dialog-wh655{width:655px;}                                                                                               /* 方案编辑 */
+
+/* tab 选项卡 */
+.tab-device{border:none;box-shadow:none;width:280px;}
+.el-tabs__nav{width:100%;display:flex;}
+.tab-device .el-tabs__nav .el-tabs__item{flex:1;text-align:center;height:30px;line-height:30px;}
+.tab-device .el-tabs__header{border:none;background:#e1e3e5;color:#465461;width:280px;}
+.tab-device .el-tabs__header .el-tabs__item.is-active{background:#f0f1f2;color:#465461;}
+.tab-device .el-tabs__content{padding:0;width:290px;overflow:inherit;}
+.tab-device .el-tabs--border-card>.el-tabs__content{padding:0;}
+
+

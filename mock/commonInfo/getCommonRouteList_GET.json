@@ -1,0 +1,157 @@
+{
+  "desc": "本地json数据模拟",
+  "appCode": "0",
+  "dataBuffer": "成功",
+  "resultList": [
+    {
+      "commonRouteId": "CR2019022815520276618832",
+      "commonRouteName": "黄龙去三墩镇政府",
+      "createPerson": "管理员",
+      "createTime": "2019-02-28 15:52:02",
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "placePerson": null,
+      "placePhone": null,
+      "routeGeo": {
+        "circle": false,
+        "dimensions": 2,
+        "elemInfo": [
+          1,
+          2,
+          1
+        ],
+        "elements": [
+          {
+            "$ref": ".."
+          }
+        ],
+        "firstPoint": [
+          108.996685474617,
+          34.2722529577733
+        ],
+        "geodeticMBR": false,
+        "javaPoint": null,
+        "javaPoints": null,
+        "lRMDimension": 0,
+        "lRSGeometry": false,
+        "labelPoint": null,
+        "labelPointXYZ": [
+          null,
+          null,
+          null
+        ],
+        "lastPoint": [
+          109.020402097137,
+          34.3065734242866
+        ],
+        "mBR": [
+          108.996685474617,
+          34.2683331201169,
+          109.036069441711,
+          34.3065734242866
+        ],
+        "multiPoint": false,
+        "numPoints": 3,
+        "ordinatesArray": [
+          108.996685474617,
+          34.2722529577733,
+          109.036069441711,
+          34.2683331201169,
+          109.020402097137,
+          34.3065734242866
+        ],
+        "ordinatesOfElements": [
+          [
+            108.996685474617,
+            34.2722529577733,
+            109.036069441711,
+            34.2683331201169,
+            109.020402097137,
+            34.3065734242866
+          ]
+        ],
+        "orientMultiPointOffset": 0,
+        "orientedMultiPoint": false,
+        "orientedPoint": false,
+        "point": null,
+        "rectangle": false,
+        "sRID": 4326,
+        "size": 100,
+        "type": 2
+      },
+      "routeLength": 8325,
+      "routeMemo": null,
+      "routePlanTime": 13.0,
+      "routePointList": [
+        {
+          "mapLength": 1,
+          "parkTime": 0.0,
+          "pointX": 108.996685,
+          "mapPointX": 108.996685,
+          "pointTypeId": "ROUTEPOINTTYPE01",
+          "pointY": 34.272253,
+          "mapPointY": 34.272253,
+          "pointName": "黄龙体育中心",
+          "pointLength": 0,
+          "extras": null,
+          "pointTypeName": "起点",
+          "speed": 40.0,
+          "pointSortno": 1,
+          "routeId": "CR2019022815520276618832",
+          "pointId": "RO2019030510414795541660",
+          "sectionLength": 0,
+          "planTime": 0.0,
+          "id": null,
+          "taskId": null
+        },
+        {
+          "mapLength": 1,
+          "parkTime": 0.0,
+          "pointX": 109.036069,
+          "mapPointX": 109.036069,
+          "pointTypeId": "ROUTEPOINTTYPE02",
+          "pointY": 34.268333,
+          "mapPointY": 34.268333,
+          "pointName": "途径点",
+          "pointLength": 4399,
+          "extras": null,
+          "pointTypeName": "途径点",
+          "speed": 40.0,
+          "pointSortno": 2,
+          "routeId": "CR2019022815520276618832",
+          "pointId": "RO2019030510414714807387",
+          "sectionLength": 4399,
+          "planTime": 7.0,
+          "id": null,
+          "taskId": null
+        },
+        {
+          "mapLength": 1,
+          "parkTime": 0.0,
+          "pointX": 109.020402,
+          "mapPointX": 109.020402,
+          "pointTypeId": "ROUTEPOINTTYPE04",
+          "pointY": 34.306573,
+          "mapPointY": 34.306573,
+          "pointName": "三墩镇政府",
+          "pointLength": 8325,
+          "extras": null,
+          "pointTypeName": "终点",
+          "speed": 40.0,
+          "pointSortno": 3,
+          "routeId": "CR2019022815520276618832",
+          "pointId": "RO2019030510414760487483",
+          "sectionLength": 3926,
+          "planTime": 6.0,
+          "id": null,
+          "taskId": null
+        }
+      ],
+      "routeStartPlace": "黄龙体育中心",
+      "routeTargetPlace": "三墩镇政府",
+      "strArea": "{\"paths\":[[[108.996685474617,34.2722529577733],[109.036069441711,34.2683331201169],[109.020402097137,34.3065734242866]]],\"spatialReference\":{\"wkid\":4326}}",
+      "updateTime": "2019-03-05 10:41:47"
+    }
+  ]
+}

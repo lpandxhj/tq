@@ -1,0 +1,26 @@
+{
+  "desc": "本地json数据模拟",
+  "appCode": "0",
+  "dataBuffer": "成功",
+  "resultList": [
+    {
+      "commonPlaceId": "CP2019022811405626712079",
+      "commonPlaceName": "终点",
+      "createPerson": "管理员",
+      "createTime": "2019-02-28 11:40:56",
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "parkNumbers": 22,
+      "placeAddress": "这里的地址没地方获取呀",
+      "placeMemo": "非对方水电费水电费单四渡赤水",
+      "placePerson": "张三",
+      "placePhone": "12311111111",
+      "placeTypeId": null,
+      "placeTypeName": null,
+      "placeX": 108.935094,
+      "placeY": 34.256513,
+      "updateTime": "2019-03-01 10:41:30"
+    }
+  ]
+}

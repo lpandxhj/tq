@@ -1,0 +1,114 @@
+/* ===================== layout  =====================*/
+body{overflow-y:hidden;}
+#main {position: absolute;top: 50px;bottom: 0;left: 0;right: 0;}
+#menu{float:left;position:relative;z-index:10;box-sizing:border-box;}
+#content{position:relative;min-width:1070px;min-height:600px;box-sizing:border-box;}
+.router-con{position:absolute;top:30px;bottom:0;left:0;right:0;}                                                                         /* 路由容器 */
+.top-bar{position:absolute;left:0;right:0;top:0;z-index:3;height:30px;line-height:30px;padding-left:20px;font-size:12px;color:#6e6e6e;}  /* 顶部菜单 */
+.list-breadcrumb li{display:inline-block;}                                                                                               /* 面包屑 */
+.list-breadcrumb li:hover{cursor:pointer;color:#5093e1;}
+.border-radius{border-radius:4px;}
+.box-shadow{padding:10px;margin-bottom:10px;box-shadow:1px 1px 6px #cdccca;background:#fff;box-sizing:border-box;}                       /* 带阴影的白底容器 */
+.box-memo{background:#fff;color:#727d86;border-radius:8px;padding:10px 10px 5px;margin-bottom:10px;box-shadow:0 1px 4px #bdbcba;box-sizing:border-box;}
+
+
+
+/* ===================== common ======================== */
+/* 动画 */
+.slide-down{position:absolute;top:-1000px;transition:top .4s;}                                                                           /* 向下滑出 */
+.slide-down.active{top:0;}
+.slide-left{position:absolute;right:-1000px;transition:right .4s;}                                                                       /* 向左滑出 */
+.slide-left.active{right:0;}
+.slide-right{position:absolute;left:-1000px;transition:left .4s;}                                                                        /* 向右滑出 */
+.slide-right.active{left:0;}
+.fade-enter-active, .fade-leave-active {transition: opacity .3s}                                                                         /* 淡入淡出 */
+.fade-enter, .fade-leave-to {opacity: 0}
+
+/* 标题 */
+.primary-title{color:#727d86;font-weight:normal;margin-bottom:10px;position:relative;}
+.title-info{color:#5093e1;font-weight:normal;padding:10px 20px;}
+.title-info::before{content:'';float:left;height:13px;width:3px;background:#5093e1;border-radius:4px;margin-right:10px;}
+
+/* 表单元素 */
+.form-wrap{padding:0 25px 0 10px;}                                                                                                       /* 行样式 */
+.form-item{margin-bottom:10px;color:#465461;}                                                                                            /*（深色字体：常用于可编辑的表单）*/
+.form-wrap-theme2 .form-item{color:#8d9aa7;margin-bottom:1px;}                                                                           /*（浅色字体：常用于只读类表单）*/
+.form-wrap .form-item:last-child{margin-bottom:0;}
+label.label-align-r{display:inline-block;width:85px;box-sizing:border-box;text-align:right;padding-right:5px;height:30px;line-height:30px;color:#4a4a4a;}
+.form-item .label{line-height:30px;text-align:right;}
+.btn-group-bottom{position:absolute;bottom:0;left:0;right:0;height:50px;box-sizing:border-box;background:#f6f7fb;padding-top:12px;text-align:center;}
+.btn-group .ic1:hover,.btn-group .ic2:hover, .btn-group>span:hover{cursor:pointer;}
+.btn-primary, .btn-warning, .btn-success, .btn-error, .btn-info, .btn-highlight, .btn-disabled{display:inline-block;border-radius:4px;height:22px;line-height:22px;padding:0 16px;color:#fff;margin-right:7px;border:none;}
+.btn-primary{background:#5093e1;}
+.btn-warning{background:#eec300;}
+.btn-success{background:#50c14e;}
+.btn-disabled,.btn-group .btn-disabled:hover{background:#e8e8e8;color:#909399;cursor:not-allowed;}
+.btn-round{min-width:73px;text-align:center;border-radius:20px;box-sizing:border-box;}
+.btn-info{background:#52c4ef;}
+.btn-highlight{background:#39b2a9;}
+.btn-primary:hover, .btn-warning:hover, .btn-success:hover, .btn-error:hover, .btn-info:hover, .btn-highlight:hover{opacity:.9;color:#fff;cursor:pointer;}
+.input-primary{background:#fff;border:1px solid #dcdfe6;height:30px;line-height:30px;color:#606266;padding:0 15px;border-radius:4px;}
+.input-primary:focus, .input-primary.focus{border-color:#409EFF;}
+.input-transparent{background:none;border:none;box-shadow:none;padding:0;}
+
+/* 查询/筛选条件 */
+.pd-side20{padding:0 20px;}
+.list-filters{padding:10px 20px 0;}
+.list-filters:last-child{margin-bottom:0;}
+.list-filters li{float:left;margin-right:15px;margin-bottom:10px;}
+.list-filters .btn-primary{width:73px;}
+.list-filters-border{border-bottom:1px solid #e8ebed;}
+
+/* 列表、表格 */
+.list-background{width:100%;text-align:center;}                                                                                          /* 带背景色的列表 */
+.list-background .el-col{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.list-background li {width: 100%;color:#67717a;box-sizing:border-box;}
+.list-background li.li-head {margin: 10px 0;}
+.list-background li.li-head .el-col{font-size:14px;}
+.list-background li.li-body {height:38px;line-height:38px;margin-bottom: 6px;background: #f6f7fa;border-radius: 4px; color: #67717a;}
+.list-background li.li-body:hover, .list-background li.li-body.active {background: #5093e1;color: #fff;}
+.list-border li{color:#465461;position:relative;padding:10px 15px;}                                                                      /* 带边框的列表 */
+.list-border li::after{content:'';display:block;position:absolute;height:1px;width:280px;background:#edeff1;left:10px;bottom:0;}
+.list-border li:last-child::after{display:none;}
+.list-border li:hover,.list-border li.active{color:#5093e1;cursor:pointer;background:#f6f7f8;}
+.list-border li:hover::after,.list-border li.active::after{background:#f6f7f8;}
+
+
+
+/* ===================== inner ======================== */
+/* 任务list */
+.task-list-scroller{position:absolute;left:10px;top:40px;height:445px;width:251px;}
+.task-list{width:240px;}
+.cut-line::after{content:'';display:inline-block;height:12px;background:#e3e6e8;width:1px;margin:0 8px;position:relative;top:2px;}
+.task-list>li{border-bottom:3px solid #fff;line-height:1.7;}
+.task-list>li:last-child{margin-bottom:0}
+.task-list>li.status-EXECUTESTATUS02,.task-list li.status-EXECUTESTATUS03{border-radius:8px 8px 0 0;}                                    /* 任务状态 */
+.task-list>li.status-EXECUTESTATUS01{border-color:#fff;}                                                                                 /* 待执行 */
+.task-list>li.status-EXECUTESTATUS02{border-color:#5093e1;}                                                                              /* 执行中 */
+.task-list>li.status-EXECUTESTATUS03{border-color:#3dcf8f;}                                                                              /* 执行完 */
+.task-list>li .scheme-name{color:#5093e1;}
+.task-list>li:hover{cursor:pointer;}
+.task-list>li:hover .scheme-name{font-weight:bold;}
+.task-list>li.disabled:hover{cursor:not-allowed;}
+.task-list>li.disabled .scheme-name, .task-list>li.disabled .task-name,
+.task-list>li.disabled .ic-plate, .task-list>li.disabled .time, .task-list>li.disabled .license-plate {color:#c0c4cc;}
+.task-list>li.active{background:#5093e1;color:#fff;border-color:#5093e1;border-radius:8px;}
+.task-list>li.active .ic-plate, .task-list>li.active .time,
+.task-list>li.active .scheme-name, .task-list>li.active .task-name,
+.task-list>li.active .license-plate{color:#fff;}
+.task-list li p.pd{padding:1px 0 0 18px;}
+.task-list li p.pd .cut-line::after{top:-2px;}
+.task-list li p.pd-b1{padding-bottom:1px;}
+.task-list li p.pd-b1 .btn-task{position:relative;top:2px;}
+.btn-task{float:right;height:20px;}
+.btn-task i.ic1{display:inline-block;box-sizing:border-box;padding:3px 2px 0;}
+.btn-task i.ic1.active{cursor:default;}
+.ic-plate{display:inline-block;width:90px;color:#5093e1;}
+.ic-plate::before{height:16px;width:16px;position:relative;top:3px;left:-3px;}
+.blank-ht20{height:20px;}
+.time{color:#92999e;}
+
+
+
+
+

@@ -1,0 +1,51 @@
+{
+  "desc": "本地json数据模拟",
+  "dataBuffer": "成功",
+  "appCode": "0",
+  "resultList": [
+    {
+      "dicCode": "SCHEMESTATUS01",
+      "dicName": "待提交",
+      "dicValue": "01",
+      "itemCode": "STATUS",
+      "memo": "方案状态",
+      "parentCode": "SCHEMESTATUS",
+      "sortNo": 1,
+      "subItemCode": "01",
+      "typeCode": "SCHEME"
+    },
+    {
+      "dicCode": "SCHEMESTATUS02",
+      "dicName": "待审核",
+      "dicValue": "02",
+      "itemCode": "STATUS",
+      "memo": "",
+      "parentCode": "SCHEMESTATUS",
+      "sortNo": 2,
+      "subItemCode": "02",
+      "typeCode": "SCHEME"
+    },
+    {
+      "dicCode": "SCHEMESTATUS03",
+      "dicName": "审核通过",
+      "dicValue": "03",
+      "itemCode": "STATUS",
+      "memo": "",
+      "parentCode": "SCHEMESTATUS",
+      "sortNo": 3,
+      "subItemCode": "03",
+      "typeCode": "SCHEME"
+    },
+    {
+      "dicCode": "SCHEMESTATUS04",
+      "dicName": "审核不通过",
+      "dicValue": "04",
+      "itemCode": "STATUS",
+      "memo": "",
+      "parentCode": "SCHEMESTATUS",
+      "sortNo": 4,
+      "subItemCode": "04",
+      "typeCode": "SCHEME"
+    }
+  ]
+}

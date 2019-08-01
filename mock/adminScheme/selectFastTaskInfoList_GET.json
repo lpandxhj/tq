@@ -1,0 +1,55 @@
+{
+  "desc": "本地json数据模拟",
+  "appCode": "0",
+  "dataBuffer": "成功",
+  "resultList": [
+    {
+      "advanceReleaseDistance": 200,
+      "beforeDriver": null,
+      "beforeLicensePlate": null,
+      "createTime": "2019-03-18 18:40:02",
+      "dutyDeptId": null,
+      "dutyDeptName": null,
+      "dutyPolice": null,
+      "dutyPoliceId": null,
+      "executeTaskList": null,
+      "extras": null,
+      "fleetLength": 20,
+      "id": null,
+      "isDelete": false,
+      "positionDeviceId": null,
+      "positionDeviceName": null,
+      "rltInfoId": null,
+      "rltSourceId": null,
+      "rltTimeList": [
+        {
+          "beginTime": "2019-02-25 00:00",
+          "endTime": "2019-03-30 00:00",
+          "extras": null,
+          "id": null,
+          "taskId": "T2019031818400259964321",
+          "timeId": "TT2019031818400272279609"
+        }
+      ],
+      "routeInfoList": [],
+      "schemeId": "S2019031818400223562362",
+      "startPlace": "--",
+      "targetPlace": "--",
+      "taskBeginDate": "2019-02-25 00:00:00",
+      "taskClassId": "TASKCLASS02",
+      "taskClassName": "单次任务",
+      "taskContent": "--",
+      "taskEndDate": "2019-03-30 00:00:00",
+      "taskId": "T2019031818400259964321",
+      "taskMemo": null,
+      "taskName": "新建的快速特勤",
+      "taskPeriodId": null,
+      "taskPeriodName": null,
+      "taskRankId": "SCHEMERANK02",
+      "taskRankName": "三级",
+      "taskTypeId": "TASKTYPE02",
+      "taskTypeName": "快速特勤",
+      "updateTime": "2019-03-18 18:40:02"
+    }
+  ]
+}

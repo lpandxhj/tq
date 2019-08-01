@@ -1,0 +1,467 @@
+{
+  "desc": "本地json数据模拟",
+  "appCode": "0",
+  "dataBuffer": "成功",
+  "resultList": [
+    {
+      "createPerson": "管理员",
+      "createTime": "2019-03-13 15:39:22",
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "schemeBeginDate": "2019-03-13 00:00:00",
+      "schemeCheckList": [
+        {
+          "checkId": "SC2019031315490649773111",
+          "checkIdea": "没意见",
+          "checkPerson": "管理员",
+          "checkStatusId": "SCHEMESTATUS04",
+          "checkStatusName": "审核不通过",
+          "checkTime": "2019-03-13 15:49:06",
+          "extras": null,
+          "id": null,
+          "schemeId": "111"
+        }
+      ],
+      "schemeContent": "富士达发送到发送到",
+      "schemeEndDate": "2019-03-27 00:00:00",
+      "schemeFileList": [
+        {
+          "extras": null,
+          "fileId": "SF2019031315392349201543",
+          "fileName": "杭州非现场接口设计说明书.doc",
+          "fileSize": "688.0673828125",
+          "fileUrl": "ftp://test:test@192.168.56.8:21//tsmsUpload/20190313//2019031315390163.doc",
+          "id": null,
+          "schemeId": "111"
+        },
+        {
+          "extras": null,
+          "fileId": "SF2019031315392326770114",
+          "fileName": "6.png",
+          "fileSize": "0.013855934143066406",
+          "fileUrl": "ftp://test:test@192.168.56.8:21//tsmsUpload/20190313//20190313153840163.png",
+          "id": null,
+          "schemeId": "111"
+        }
+      ],
+      "schemeId": "111",
+      "schemeMemo": "打发士大夫撒发撒的发生的",
+      "schemeName": "313",
+      "schemePersonName": "多少",
+      "schemePhone": "23423423",
+      "schemeRankId": "SCHEMERANK03",
+      "schemeRankName": "二级",
+      "schemeSource": "222",
+      "schemeStatusId": "SCHEMESTATUS04",
+      "schemeStatusName": "审核不通过",
+      "taskDetailInfoList": null,
+      "taskInfoList": [
+        {
+          "beforeDriver": null,
+          "taskRankId": "SCHEMERANK03",
+          "taskClassId": "TASKCLASS01",
+          "extras": null,
+          "schemeId": "111",
+          "routeInfoList": [
+            {
+              "isDelete": false,
+              "rltRouteDeviceList": [],
+              "routeLength": 12636,
+              "extras": null,
+              "updateTime": "2019-03-14 09:43:02",
+              "routePointList": [
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.901747,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE01",
+                  "pointY": 34.283002,
+                  "mapPointY": null,
+                  "pointName": "起点",
+                  "pointLength": 0,
+                  "extras": null,
+                  "pointTypeName": "起点",
+                  "speed": 40.0,
+                  "pointSortno": 1,
+                  "routeId": "R2019031409430222811013",
+                  "pointId": "RO2019031409430297086713",
+                  "sectionLength": 0,
+                  "planTime": 0.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                },
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.981809,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE02",
+                  "pointY": 34.264116,
+                  "mapPointY": null,
+                  "pointName": "途径点",
+                  "pointLength": 9081,
+                  "extras": null,
+                  "pointTypeName": "途径点",
+                  "speed": 40.0,
+                  "pointSortno": 2,
+                  "routeId": "R2019031409430222811013",
+                  "pointId": "RO2019031409430246475803",
+                  "sectionLength": 9081,
+                  "planTime": 14.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                },
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.99877,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE02",
+                  "pointY": 34.274807,
+                  "mapPointY": null,
+                  "pointName": "途径点",
+                  "pointLength": 11210,
+                  "extras": null,
+                  "pointTypeName": "途径点",
+                  "speed": 40.0,
+                  "pointSortno": 3,
+                  "routeId": "R2019031409430222811013",
+                  "pointId": "RO2019031409430231591793",
+                  "sectionLength": 2129,
+                  "planTime": 4.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                },
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.996757,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE04",
+                  "pointY": 34.290127,
+                  "mapPointY": null,
+                  "pointName": "终点",
+                  "pointLength": 12636,
+                  "extras": null,
+                  "pointTypeName": "终点",
+                  "speed": 40.0,
+                  "pointSortno": 4,
+                  "routeId": "R2019031409430222811013",
+                  "pointId": "RO2019031409430208857580",
+                  "sectionLength": 1427,
+                  "planTime": 3.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                }
+              ],
+              "rltRoutePostList": [],
+              "routeName": "线路1",
+              "routeTargetPlace": "终点",
+              "routeId": "R2019031409430222811013",
+              "createTime": "2019-03-14 09:43:02",
+              "routeTypeId": "ROUTETYPE01",
+              "routePlanTime": 21.0,
+              "routeMemo": null,
+              "routeTypeName": "执行线路",
+              "strArea": null,
+              "routeGeo": {
+                "circle": false,
+                "dimensions": 2,
+                "elemInfo": [
+                  1,
+                  2,
+                  1
+                ],
+                "elements": [
+                  {
+                    "$ref": ".."
+                  }
+                ],
+                "firstPoint": [
+                  108.901747115986,
+                  34.2830018778217
+                ],
+                "geodeticMBR": false,
+                "javaPoint": null,
+                "javaPoints": null,
+                "lRMDimension": 0,
+                "lRSGeometry": false,
+                "labelPoint": null,
+                "labelPointXYZ": [
+                  null,
+                  null,
+                  null
+                ],
+                "lastPoint": [
+                  108.996757343171,
+                  34.290127475932
+                ],
+                "mBR": [
+                  108.901747115986,
+                  34.2641161210479,
+                  108.998769662657,
+                  34.290127475932
+                ],
+                "multiPoint": false,
+                "numPoints": 4,
+                "ordinatesArray": [
+                  108.901747115986,
+                  34.2830018778217,
+                  108.981808684128,
+                  34.2641161210479,
+                  108.998769662657,
+                  34.2748066930878,
+                  108.996757343171,
+                  34.290127475932
+                ],
+                "ordinatesOfElements": [
+                  [
+                    108.901747115986,
+                    34.2830018778217,
+                    108.981808684128,
+                    34.2641161210479,
+                    108.998769662657,
+                    34.2748066930878,
+                    108.996757343171,
+                    34.290127475932
+                  ]
+                ],
+                "orientMultiPointOffset": 0,
+                "orientedMultiPoint": false,
+                "orientedPoint": false,
+                "point": null,
+                "rectangle": false,
+                "sRID": 4326,
+                "size": 116,
+                "type": 2
+              },
+              "id": null,
+              "taskId": "T2019031316011490612289",
+              "routeStartPlace": "起点"
+            },
+            {
+              "isDelete": false,
+              "rltRouteDeviceList": [],
+              "routeLength": 12636,
+              "extras": null,
+              "updateTime": "2019-03-14 09:42:07",
+              "routePointList": [
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.901747,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE01",
+                  "pointY": 34.283002,
+                  "mapPointY": null,
+                  "pointName": "起点",
+                  "pointLength": 0,
+                  "extras": null,
+                  "pointTypeName": "起点",
+                  "speed": 40.0,
+                  "pointSortno": 1,
+                  "routeId": "R2019031409420727649438",
+                  "pointId": "RO2019031409421112265618",
+                  "sectionLength": 0,
+                  "planTime": 0.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                },
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.981809,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE02",
+                  "pointY": 34.264116,
+                  "mapPointY": null,
+                  "pointName": "途径点",
+                  "pointLength": 9081,
+                  "extras": null,
+                  "pointTypeName": "途径点",
+                  "speed": 40.0,
+                  "pointSortno": 2,
+                  "routeId": "R2019031409420727649438",
+                  "pointId": "RO2019031409421132135767",
+                  "sectionLength": 9081,
+                  "planTime": 14.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                },
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.99877,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE02",
+                  "pointY": 34.274807,
+                  "mapPointY": null,
+                  "pointName": "途径点",
+                  "pointLength": 11210,
+                  "extras": null,
+                  "pointTypeName": "途径点",
+                  "speed": 40.0,
+                  "pointSortno": 3,
+                  "routeId": "R2019031409420727649438",
+                  "pointId": "RO2019031409421137878844",
+                  "sectionLength": 2129,
+                  "planTime": 4.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                },
+                {
+                  "mapLength": null,
+                  "parkTime": 0.0,
+                  "pointX": 108.996757,
+                  "mapPointX": null,
+                  "pointTypeId": "ROUTEPOINTTYPE04",
+                  "pointY": 34.290127,
+                  "mapPointY": null,
+                  "pointName": "终点",
+                  "pointLength": 12636,
+                  "extras": null,
+                  "pointTypeName": "终点",
+                  "speed": 40.0,
+                  "pointSortno": 4,
+                  "routeId": "R2019031409420727649438",
+                  "pointId": "RO2019031409421165203550",
+                  "sectionLength": 1427,
+                  "planTime": 3.0,
+                  "id": null,
+                  "taskId": "T2019031316011490612289"
+                }
+              ],
+              "rltRoutePostList": [],
+              "routeName": "线路1",
+              "routeTargetPlace": "终点",
+              "routeId": "R2019031409420727649438",
+              "createTime": "2019-03-14 09:42:07",
+              "routeTypeId": "ROUTETYPE01",
+              "routePlanTime": 21.0,
+              "routeMemo": null,
+              "routeTypeName": "执行线路",
+              "strArea": null,
+              "routeGeo": {
+                "circle": false,
+                "dimensions": 2,
+                "elemInfo": [
+                  1,
+                  2,
+                  1
+                ],
+                "elements": [
+                  {
+                    "$ref": ".."
+                  }
+                ],
+                "firstPoint": [
+                  108.901747115986,
+                  34.2830018778217
+                ],
+                "geodeticMBR": false,
+                "javaPoint": null,
+                "javaPoints": null,
+                "lRMDimension": 0,
+                "lRSGeometry": false,
+                "labelPoint": null,
+                "labelPointXYZ": [
+                  null,
+                  null,
+                  null
+                ],
+                "lastPoint": [
+                  108.996757343171,
+                  34.290127475932
+                ],
+                "mBR": [
+                  108.901747115986,
+                  34.2641161210479,
+                  108.998769662657,
+                  34.290127475932
+                ],
+                "multiPoint": false,
+                "numPoints": 4,
+                "ordinatesArray": [
+                  108.901747115986,
+                  34.2830018778217,
+                  108.981808684128,
+                  34.2641161210479,
+                  108.998769662657,
+                  34.2748066930878,
+                  108.996757343171,
+                  34.290127475932
+                ],
+                "ordinatesOfElements": [
+                  [
+                    108.901747115986,
+                    34.2830018778217,
+                    108.981808684128,
+                    34.2641161210479,
+                    108.998769662657,
+                    34.2748066930878,
+                    108.996757343171,
+                    34.290127475932
+                  ]
+                ],
+                "orientMultiPointOffset": 0,
+                "orientedMultiPoint": false,
+                "orientedPoint": false,
+                "point": null,
+                "rectangle": false,
+                "sRID": 4326,
+                "size": 116,
+                "type": 2
+              },
+              "id": null,
+              "taskId": "T2019031316011490612289",
+              "routeStartPlace": "起点"
+            }
+          ],
+          "taskTypeName": "警卫任务",
+          "positionDeviceId": null,
+          "taskTypeId": "TASKTYPE01",
+          "taskEndDate": "2019-03-14 00:00:00",
+          "taskPeriodName": "每天",
+          "beforeLicensePlate": null,
+          "taskMemo": null,
+          "taskPeriodId": "TASKPERIOD01",
+          "ExecuteTaskList": null,
+          "rltInfoId": null,
+          "id": null,
+          "targetPlace": "武林广场",
+          "startPlace": "三墩",
+          "fleetLength": 20,
+          "taskRankName": "二级",
+          "taskClassName": "日常任务",
+          "isDelete": false,
+          "taskBeginDate": "2019-03-13 00:00:00",
+          "dutyDeptId": null,
+          "updateTime": "2019-03-13 16:07:12",
+          "advanceReleaseDistance": 200,
+          "positionDeviceName": "1我x",
+          "dutyPoliceId": null,
+          "dutyDeptName": "散文散文所群无",
+          "taskContent": "上午大大大撒寻大所",
+          "createTime": "2019-03-13 16:01:14",
+          "rltSourceId": null,
+          "dutyPolice": null,
+          "taskName": "交警可怕可怕【考虑【拍马屁苦力怕【楼盘【流量【了【没开票了【",
+          "taskId": "T2019031316011490612289",
+          "rltTimeList": [
+            {
+              "timeId": "TT2019031316071383027513",
+              "extras": null,
+              "beginTime": "16:01",
+              "endTime": "18:01",
+              "id": null,
+              "taskId": "T2019031316011490612289"
+            }
+          ]
+        }
+      ],
+      "updateTime": "2019-03-13 15:49:06"
+    }
+  ]
+}

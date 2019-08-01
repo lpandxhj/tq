@@ -1,0 +1,221 @@
+{
+  "desc": "本地json数据模拟",
+  "appCode": "0",
+  "dataBuffer": "成功",
+  "resultList": [
+    {
+      "executeTaskDispatchList": [
+        {
+          "dispatchId": "DP2019032110181089128483",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:10",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "020190",
+          "policeName": "席萌",
+          "postId": "RP2019031819083073204341"
+        },
+        {
+          "dispatchId": "DP2019032110181054936153",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:10",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "011709",
+          "policeName": "屈更生",
+          "postId": "RP2019031819083073204341"
+        },
+        {
+          "dispatchId": "DP2019032110181017598053",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:10",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "013766",
+          "policeName": "王海玲",
+          "postId": "RP2019031819083073204341"
+        },
+        {
+          "dispatchId": "DP2019032110181092610502",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:10",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "012026",
+          "policeName": "孟琨琪",
+          "postId": "RP2019031819083073204341"
+        }
+      ],
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "isHandle": false,
+      "policeAuxNumber": 0,
+      "policeNumber": 10,
+      "postDescribe": "岗位描述",
+      "postId": "RP2019031819083073204341",
+      "postName": "岗位1",
+      "postSortno": 1,
+      "postX": 109.008896,
+      "postY": 34.277472,
+      "routeId": "R2019031217203792204441",
+      "taskId": "T2019031216044650605563"
+    },
+    {
+      "executeTaskDispatchList": null,
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "isHandle": false,
+      "policeAuxNumber": 0,
+      "policeNumber": 0,
+      "postDescribe": "岗位描述",
+      "postId": "RP2019031819083087149569",
+      "postName": "岗位名称",
+      "postSortno": 2,
+      "postX": 109.010316,
+      "postY": 34.277383,
+      "routeId": "R2019031217203792204441",
+      "taskId": "T2019031216044650605563"
+    },
+    {
+      "executeTaskDispatchList": [
+        {
+          "dispatchId": "DP2019032110181897579436",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:18",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "012399",
+          "policeName": "王艳丽",
+          "postId": "RP2019031819083081233448"
+        },
+        {
+          "dispatchId": "DP2019032110181865641639",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:18",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "050057",
+          "policeName": "张新卫",
+          "postId": "RP2019031819083081233448"
+        }
+      ],
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "isHandle": false,
+      "policeAuxNumber": 3,
+      "policeNumber": 5,
+      "postDescribe": "岗位描述",
+      "postId": "RP2019031819083081233448",
+      "postName": "岗位3",
+      "postSortno": 3,
+      "postX": 109.012076,
+      "postY": 34.277427,
+      "routeId": "R2019031217203792204441",
+      "taskId": "T2019031216044650605563"
+    },
+    {
+      "executeTaskDispatchList": [
+        {
+          "dispatchId": "DP2019032110182668466366",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:26",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "011709",
+          "policeName": "屈更生",
+          "postId": "RP2019031819083045920532"
+        },
+        {
+          "dispatchId": "DP2019032110182635289623",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:26",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "050057",
+          "policeName": "张新卫",
+          "postId": "RP2019031819083045920532"
+        }
+      ],
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "isHandle": false,
+      "policeAuxNumber": 1,
+      "policeNumber": 1,
+      "postDescribe": "岗位描述",
+      "postId": "RP2019031819083045920532",
+      "postName": "岗位名称",
+      "postSortno": 4,
+      "postX": 109.013945,
+      "postY": 34.277546,
+      "routeId": "R2019031217203792204441",
+      "taskId": "T2019031216044650605563"
+    },
+    {
+      "executeTaskDispatchList": [
+        {
+          "dispatchId": "DP2019032110182212190906",
+          "dispatchPerson": "管理员",
+          "dispatchTime": "2019-03-21 10:18:22",
+          "executeTaskId": "TE2019032110174912446963",
+          "extras": null,
+          "id": null,
+          "policeCall": null,
+          "policeId": "012026",
+          "policeName": "孟琨琪",
+          "postId": "RP2019031819083075081540"
+        }
+      ],
+      "extras": null,
+      "id": null,
+      "isDelete": false,
+      "isHandle": false,
+      "policeAuxNumber": 0,
+      "policeNumber": 0,
+      "postDescribe": "岗位描述",
+      "postId": "RP2019031819083075081540",
+      "postName": "岗位名称",
+      "postSortno": 5,
+      "postX": 109.015598,
+      "postY": 34.277531,
+      "routeId": "R2019031217203792204441",
+      "taskId": "T2019031216044650605563"
+    },
+    {
+      "executeTaskDispatchList": [],
+      "extras": null,
+      "id": null,
+      "isDelete": null,
+      "isHandle": null,
+      "policeAuxNumber": null,
+      "policeNumber": null,
+      "postDescribe": null,
+      "postId": null,
+      "postName": "空岗位",
+      "postSortno": null,
+      "postX": null,
+      "postY": null,
+      "routeId": null,
+      "taskId": null
+    }
+  ]
+}
